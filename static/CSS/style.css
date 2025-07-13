@@ -1928,6 +1928,14 @@ nav a.actiev svg path {
   overflow: visible;
 }
 
+.store__card:nth-child(1) {
+  background: linear-gradient(128.05deg, #9DC3F7 3.45%, #2068CD 88.77%);
+}
+
+.store__card:nth-child(2) {
+  background: linear-gradient(128.05deg, #FFE272 3.45%, #C48123 88.77%);
+}
+
 .store__card__inner {
   position: absolute;
   left: 0;
