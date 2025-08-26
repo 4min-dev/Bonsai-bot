@@ -51,14 +51,14 @@
                 <div data-popup-id="profile__overlay"
                     class="get__popup__button user__profile__container flex align__center">
                     <div class="user__avatar__container flex column">
-                        <img src="#" />
+                        <img src="/static/img/userProfileAvatar.png" alt="Avatar" />
                         <span class="user__num__value flex align__center justify__center text__center">
-                            1
+                            13
                         </span>
                     </div>
                     <div class="user__text__container flex column">
                         <span class="username__container flex align__end justify__space__between">
-                            <span class="username">4min dev.</span>
+                            <span class="username">4min dev</span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17"
                                 fill="none">
                                 <path d="M6.66667 11.8333L10 8.49998" stroke="white" stroke-width="1.5"
@@ -89,9 +89,9 @@
                 </span>
 
                 <div class="ref__copy__link__container flex align__center justify__space__between">
-                    <div class="link__with__copy__container flex align__center justify__space__between">
-                        <span class="link__to__copy referal__link flex align__center"
-                            data-link="https://github.com/4min-dev">
+                    <div class="link__with__copy__container flex align__center justify__space__between"
+                        data-link="https://github.com/4min-dev">
+                        <span class="link__to__copy referal__link flex align__center">
                             https://github.com/4min-dev
                         </span>
                         <button type="button" class="copy__link__button">
@@ -139,7 +139,257 @@
                 <span class="referals__title">Мои рефералы</span>
 
                 <div class="leaderboard__container flex column">
+                    <div class="leaderboard__card flex align__center justify__space__between">
+                        <div class="leaderboard__card__content flex align__center">
+                            <div class="leaderboard__user__avatar">
+                                <img src="/static/img/cho.png" alt="User avatar" />
+                            </div>
 
+                            <div class="leaderboard__card__text__container flex align__center">
+                                <div class="leaderboard__card__personal__text__container flex column">
+                                    <span class="leaderboard__username">Олег Тиньков</span>
+                                    <div class="leaderboard__summ__container flex align__center">
+                                        <div class="leaderboard__summ__content flex align__end">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 16 16" fill="none">
+                                                <path
+                                                    d="M6.73967 5.33009C6.92592 5.1824 7.14746 5.07491 7.38459 5.00681V7.30015C7.15053 7.23605 6.93138 7.12648 6.73967 6.97768C6.41638 6.72086 6.29167 6.41891 6.29167 6.15389C6.29167 5.88886 6.41638 5.58691 6.73967 5.33009ZM8.61536 11.0048V8.68763C8.90008 8.75738 9.16018 8.87471 9.37105 9.03307C9.72141 9.29563 9.84613 9.59594 9.84613 9.8462C9.84613 10.0965 9.72141 10.3968 9.37105 10.6593C9.14489 10.8239 8.88787 10.9419 8.61536 11.0048Z"
+                                                    fill="white" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M8 0C3.58154 0 0 3.58154 0 8C0 12.4185 3.58154 16 8 16C12.4185 16 16 12.4185 16 8C16 3.58154 12.4185 0 8 0ZM8.61539 3.07692C8.61539 2.91371 8.55055 2.75719 8.43514 2.64178C8.31974 2.52637 8.16321 2.46154 8 2.46154C7.83679 2.46154 7.68027 2.52637 7.56486 2.64178C7.44945 2.75719 7.38462 2.91371 7.38462 3.07692V3.74646C6.87004 3.83305 6.38507 4.04621 5.97333 4.36677C5.38913 4.83118 5.06092 5.47446 5.06092 6.15385C5.06092 6.83405 5.38913 7.47651 5.97415 7.94092C6.38605 8.26913 6.87836 8.4718 7.38462 8.56123V11.0047C7.11206 10.9415 6.85504 10.8241 6.62892 10.6593L5.90769 10.1177C5.84304 10.0693 5.76947 10.034 5.69119 10.0139C5.6129 9.99386 5.53143 9.98942 5.45143 10.0009C5.28986 10.0239 5.14408 10.1103 5.04615 10.2408C4.94823 10.3714 4.90618 10.5355 4.92926 10.6971C4.95234 10.8587 5.03866 11.0044 5.16923 11.1024L5.89046 11.6439C6.3278 11.9721 6.84964 12.1731 7.38462 12.2593V12.9231C7.38462 13.0863 7.44945 13.2428 7.56486 13.3582C7.68027 13.4736 7.83679 13.5385 8 13.5385C8.16321 13.5385 8.31974 13.4736 8.43514 13.3582C8.55055 13.2428 8.61539 13.0863 8.61539 12.9231V12.2585C9.15575 12.1773 9.66842 11.9664 10.1095 11.6439C10.7208 11.1852 11.0769 10.5411 11.0769 9.84615C11.0769 9.15118 10.7208 8.50708 10.1095 8.04841C9.66853 7.72557 9.15584 7.51441 8.61539 7.43303V5.00841C8.85333 5.07569 9.07405 5.18318 9.26031 5.33087L9.60082 5.60164C9.72867 5.70316 9.89161 5.74973 10.0538 5.73111C10.216 5.71249 10.3641 5.63021 10.4656 5.50236C10.5672 5.37451 10.6137 5.21157 10.5951 5.04939C10.5765 4.8872 10.4942 4.73906 10.3664 4.63754L10.0258 4.36677C9.61426 4.04663 9.12959 3.83376 8.61539 3.74728V3.07692Z"
+                                                    fill="white" />
+                                            </svg>
+
+                                            <span class="leaderboard__user__summ__value">488<span
+                                                    class="opacity">,000</span>
+                                        </div>
+
+                                        <span class="leaderboard__card__level__value">1ур.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" class="get__award__button">
+                            Забрать
+                        </button>
+                    </div>
+
+                    <div class="leaderboard__card flex align__center justify__space__between">
+                        <div class="leaderboard__card__content flex align__center">
+                            <div class="leaderboard__user__avatar">
+                                <img src="/static/img/cho.png" alt="User avatar" />
+                            </div>
+
+                            <div class="leaderboard__card__text__container flex align__center">
+                                <div class="leaderboard__card__personal__text__container flex column">
+                                    <span class="leaderboard__username">Олег Тиньков</span>
+                                    <div class="leaderboard__summ__container flex align__center">
+                                        <div class="leaderboard__summ__content flex align__end">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 16 16" fill="none">
+                                                <path
+                                                    d="M6.73967 5.33009C6.92592 5.1824 7.14746 5.07491 7.38459 5.00681V7.30015C7.15053 7.23605 6.93138 7.12648 6.73967 6.97768C6.41638 6.72086 6.29167 6.41891 6.29167 6.15389C6.29167 5.88886 6.41638 5.58691 6.73967 5.33009ZM8.61536 11.0048V8.68763C8.90008 8.75738 9.16018 8.87471 9.37105 9.03307C9.72141 9.29563 9.84613 9.59594 9.84613 9.8462C9.84613 10.0965 9.72141 10.3968 9.37105 10.6593C9.14489 10.8239 8.88787 10.9419 8.61536 11.0048Z"
+                                                    fill="white" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M8 0C3.58154 0 0 3.58154 0 8C0 12.4185 3.58154 16 8 16C12.4185 16 16 12.4185 16 8C16 3.58154 12.4185 0 8 0ZM8.61539 3.07692C8.61539 2.91371 8.55055 2.75719 8.43514 2.64178C8.31974 2.52637 8.16321 2.46154 8 2.46154C7.83679 2.46154 7.68027 2.52637 7.56486 2.64178C7.44945 2.75719 7.38462 2.91371 7.38462 3.07692V3.74646C6.87004 3.83305 6.38507 4.04621 5.97333 4.36677C5.38913 4.83118 5.06092 5.47446 5.06092 6.15385C5.06092 6.83405 5.38913 7.47651 5.97415 7.94092C6.38605 8.26913 6.87836 8.4718 7.38462 8.56123V11.0047C7.11206 10.9415 6.85504 10.8241 6.62892 10.6593L5.90769 10.1177C5.84304 10.0693 5.76947 10.034 5.69119 10.0139C5.6129 9.99386 5.53143 9.98942 5.45143 10.0009C5.28986 10.0239 5.14408 10.1103 5.04615 10.2408C4.94823 10.3714 4.90618 10.5355 4.92926 10.6971C4.95234 10.8587 5.03866 11.0044 5.16923 11.1024L5.89046 11.6439C6.3278 11.9721 6.84964 12.1731 7.38462 12.2593V12.9231C7.38462 13.0863 7.44945 13.2428 7.56486 13.3582C7.68027 13.4736 7.83679 13.5385 8 13.5385C8.16321 13.5385 8.31974 13.4736 8.43514 13.3582C8.55055 13.2428 8.61539 13.0863 8.61539 12.9231V12.2585C9.15575 12.1773 9.66842 11.9664 10.1095 11.6439C10.7208 11.1852 11.0769 10.5411 11.0769 9.84615C11.0769 9.15118 10.7208 8.50708 10.1095 8.04841C9.66853 7.72557 9.15584 7.51441 8.61539 7.43303V5.00841C8.85333 5.07569 9.07405 5.18318 9.26031 5.33087L9.60082 5.60164C9.72867 5.70316 9.89161 5.74973 10.0538 5.73111C10.216 5.71249 10.3641 5.63021 10.4656 5.50236C10.5672 5.37451 10.6137 5.21157 10.5951 5.04939C10.5765 4.8872 10.4942 4.73906 10.3664 4.63754L10.0258 4.36677C9.61426 4.04663 9.12959 3.83376 8.61539 3.74728V3.07692Z"
+                                                    fill="white" />
+                                            </svg>
+
+                                            <span class="leaderboard__user__summ__value">488<span
+                                                    class="opacity">,000</span>
+                                        </div>
+
+                                        <span class="leaderboard__card__level__value">1ур.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" class="get__award__button">
+                            Забрать
+                        </button>
+                    </div>
+
+                    <div class="leaderboard__card flex align__center justify__space__between">
+                        <div class="leaderboard__card__content flex align__center">
+                            <div class="leaderboard__user__avatar">
+                                <img src="/static/img/cho.png" alt="User avatar" />
+                            </div>
+
+                            <div class="leaderboard__card__text__container flex align__center">
+                                <div class="leaderboard__card__personal__text__container flex column">
+                                    <span class="leaderboard__username">Олег Тиньков</span>
+                                    <div class="leaderboard__summ__container flex align__center">
+                                        <div class="leaderboard__summ__content flex align__end">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 16 16" fill="none">
+                                                <path
+                                                    d="M6.73967 5.33009C6.92592 5.1824 7.14746 5.07491 7.38459 5.00681V7.30015C7.15053 7.23605 6.93138 7.12648 6.73967 6.97768C6.41638 6.72086 6.29167 6.41891 6.29167 6.15389C6.29167 5.88886 6.41638 5.58691 6.73967 5.33009ZM8.61536 11.0048V8.68763C8.90008 8.75738 9.16018 8.87471 9.37105 9.03307C9.72141 9.29563 9.84613 9.59594 9.84613 9.8462C9.84613 10.0965 9.72141 10.3968 9.37105 10.6593C9.14489 10.8239 8.88787 10.9419 8.61536 11.0048Z"
+                                                    fill="white" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M8 0C3.58154 0 0 3.58154 0 8C0 12.4185 3.58154 16 8 16C12.4185 16 16 12.4185 16 8C16 3.58154 12.4185 0 8 0ZM8.61539 3.07692C8.61539 2.91371 8.55055 2.75719 8.43514 2.64178C8.31974 2.52637 8.16321 2.46154 8 2.46154C7.83679 2.46154 7.68027 2.52637 7.56486 2.64178C7.44945 2.75719 7.38462 2.91371 7.38462 3.07692V3.74646C6.87004 3.83305 6.38507 4.04621 5.97333 4.36677C5.38913 4.83118 5.06092 5.47446 5.06092 6.15385C5.06092 6.83405 5.38913 7.47651 5.97415 7.94092C6.38605 8.26913 6.87836 8.4718 7.38462 8.56123V11.0047C7.11206 10.9415 6.85504 10.8241 6.62892 10.6593L5.90769 10.1177C5.84304 10.0693 5.76947 10.034 5.69119 10.0139C5.6129 9.99386 5.53143 9.98942 5.45143 10.0009C5.28986 10.0239 5.14408 10.1103 5.04615 10.2408C4.94823 10.3714 4.90618 10.5355 4.92926 10.6971C4.95234 10.8587 5.03866 11.0044 5.16923 11.1024L5.89046 11.6439C6.3278 11.9721 6.84964 12.1731 7.38462 12.2593V12.9231C7.38462 13.0863 7.44945 13.2428 7.56486 13.3582C7.68027 13.4736 7.83679 13.5385 8 13.5385C8.16321 13.5385 8.31974 13.4736 8.43514 13.3582C8.55055 13.2428 8.61539 13.0863 8.61539 12.9231V12.2585C9.15575 12.1773 9.66842 11.9664 10.1095 11.6439C10.7208 11.1852 11.0769 10.5411 11.0769 9.84615C11.0769 9.15118 10.7208 8.50708 10.1095 8.04841C9.66853 7.72557 9.15584 7.51441 8.61539 7.43303V5.00841C8.85333 5.07569 9.07405 5.18318 9.26031 5.33087L9.60082 5.60164C9.72867 5.70316 9.89161 5.74973 10.0538 5.73111C10.216 5.71249 10.3641 5.63021 10.4656 5.50236C10.5672 5.37451 10.6137 5.21157 10.5951 5.04939C10.5765 4.8872 10.4942 4.73906 10.3664 4.63754L10.0258 4.36677C9.61426 4.04663 9.12959 3.83376 8.61539 3.74728V3.07692Z"
+                                                    fill="white" />
+                                            </svg>
+
+                                            <span class="leaderboard__user__summ__value">488<span
+                                                    class="opacity">,000</span>
+                                        </div>
+
+                                        <span class="leaderboard__card__level__value">1ур.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" class="get__award__button">
+                            Забрать
+                        </button>
+                    </div>
+
+                    <div class="leaderboard__card flex align__center justify__space__between">
+                        <div class="leaderboard__card__content flex align__center">
+                            <div class="leaderboard__user__avatar">
+                                <img src="/static/img/cho.png" alt="User avatar" />
+                            </div>
+
+                            <div class="leaderboard__card__text__container flex align__center">
+                                <div class="leaderboard__card__personal__text__container flex column">
+                                    <span class="leaderboard__username">Олег Тиньков</span>
+                                    <div class="leaderboard__summ__container flex align__center">
+                                        <div class="leaderboard__summ__content flex align__end">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 16 16" fill="none">
+                                                <path
+                                                    d="M6.73967 5.33009C6.92592 5.1824 7.14746 5.07491 7.38459 5.00681V7.30015C7.15053 7.23605 6.93138 7.12648 6.73967 6.97768C6.41638 6.72086 6.29167 6.41891 6.29167 6.15389C6.29167 5.88886 6.41638 5.58691 6.73967 5.33009ZM8.61536 11.0048V8.68763C8.90008 8.75738 9.16018 8.87471 9.37105 9.03307C9.72141 9.29563 9.84613 9.59594 9.84613 9.8462C9.84613 10.0965 9.72141 10.3968 9.37105 10.6593C9.14489 10.8239 8.88787 10.9419 8.61536 11.0048Z"
+                                                    fill="white" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M8 0C3.58154 0 0 3.58154 0 8C0 12.4185 3.58154 16 8 16C12.4185 16 16 12.4185 16 8C16 3.58154 12.4185 0 8 0ZM8.61539 3.07692C8.61539 2.91371 8.55055 2.75719 8.43514 2.64178C8.31974 2.52637 8.16321 2.46154 8 2.46154C7.83679 2.46154 7.68027 2.52637 7.56486 2.64178C7.44945 2.75719 7.38462 2.91371 7.38462 3.07692V3.74646C6.87004 3.83305 6.38507 4.04621 5.97333 4.36677C5.38913 4.83118 5.06092 5.47446 5.06092 6.15385C5.06092 6.83405 5.38913 7.47651 5.97415 7.94092C6.38605 8.26913 6.87836 8.4718 7.38462 8.56123V11.0047C7.11206 10.9415 6.85504 10.8241 6.62892 10.6593L5.90769 10.1177C5.84304 10.0693 5.76947 10.034 5.69119 10.0139C5.6129 9.99386 5.53143 9.98942 5.45143 10.0009C5.28986 10.0239 5.14408 10.1103 5.04615 10.2408C4.94823 10.3714 4.90618 10.5355 4.92926 10.6971C4.95234 10.8587 5.03866 11.0044 5.16923 11.1024L5.89046 11.6439C6.3278 11.9721 6.84964 12.1731 7.38462 12.2593V12.9231C7.38462 13.0863 7.44945 13.2428 7.56486 13.3582C7.68027 13.4736 7.83679 13.5385 8 13.5385C8.16321 13.5385 8.31974 13.4736 8.43514 13.3582C8.55055 13.2428 8.61539 13.0863 8.61539 12.9231V12.2585C9.15575 12.1773 9.66842 11.9664 10.1095 11.6439C10.7208 11.1852 11.0769 10.5411 11.0769 9.84615C11.0769 9.15118 10.7208 8.50708 10.1095 8.04841C9.66853 7.72557 9.15584 7.51441 8.61539 7.43303V5.00841C8.85333 5.07569 9.07405 5.18318 9.26031 5.33087L9.60082 5.60164C9.72867 5.70316 9.89161 5.74973 10.0538 5.73111C10.216 5.71249 10.3641 5.63021 10.4656 5.50236C10.5672 5.37451 10.6137 5.21157 10.5951 5.04939C10.5765 4.8872 10.4942 4.73906 10.3664 4.63754L10.0258 4.36677C9.61426 4.04663 9.12959 3.83376 8.61539 3.74728V3.07692Z"
+                                                    fill="white" />
+                                            </svg>
+
+                                            <span class="leaderboard__user__summ__value">488<span
+                                                    class="opacity">,000</span>
+                                        </div>
+
+                                        <span class="leaderboard__card__level__value">1ур.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" class="get__award__button">
+                            Забрать
+                        </button>
+                    </div>
+
+                    <div class="leaderboard__card flex align__center justify__space__between">
+                        <div class="leaderboard__card__content flex align__center">
+                            <div class="leaderboard__user__avatar">
+                                <img src="/static/img/cho.png" alt="User avatar" />
+                            </div>
+
+                            <div class="leaderboard__card__text__container flex align__center">
+                                <div class="leaderboard__card__personal__text__container flex column">
+                                    <span class="leaderboard__username">Олег Тиньков</span>
+                                    <div class="leaderboard__summ__container flex align__center">
+                                        <div class="leaderboard__summ__content flex align__end">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 16 16" fill="none">
+                                                <path
+                                                    d="M6.73967 5.33009C6.92592 5.1824 7.14746 5.07491 7.38459 5.00681V7.30015C7.15053 7.23605 6.93138 7.12648 6.73967 6.97768C6.41638 6.72086 6.29167 6.41891 6.29167 6.15389C6.29167 5.88886 6.41638 5.58691 6.73967 5.33009ZM8.61536 11.0048V8.68763C8.90008 8.75738 9.16018 8.87471 9.37105 9.03307C9.72141 9.29563 9.84613 9.59594 9.84613 9.8462C9.84613 10.0965 9.72141 10.3968 9.37105 10.6593C9.14489 10.8239 8.88787 10.9419 8.61536 11.0048Z"
+                                                    fill="white" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M8 0C3.58154 0 0 3.58154 0 8C0 12.4185 3.58154 16 8 16C12.4185 16 16 12.4185 16 8C16 3.58154 12.4185 0 8 0ZM8.61539 3.07692C8.61539 2.91371 8.55055 2.75719 8.43514 2.64178C8.31974 2.52637 8.16321 2.46154 8 2.46154C7.83679 2.46154 7.68027 2.52637 7.56486 2.64178C7.44945 2.75719 7.38462 2.91371 7.38462 3.07692V3.74646C6.87004 3.83305 6.38507 4.04621 5.97333 4.36677C5.38913 4.83118 5.06092 5.47446 5.06092 6.15385C5.06092 6.83405 5.38913 7.47651 5.97415 7.94092C6.38605 8.26913 6.87836 8.4718 7.38462 8.56123V11.0047C7.11206 10.9415 6.85504 10.8241 6.62892 10.6593L5.90769 10.1177C5.84304 10.0693 5.76947 10.034 5.69119 10.0139C5.6129 9.99386 5.53143 9.98942 5.45143 10.0009C5.28986 10.0239 5.14408 10.1103 5.04615 10.2408C4.94823 10.3714 4.90618 10.5355 4.92926 10.6971C4.95234 10.8587 5.03866 11.0044 5.16923 11.1024L5.89046 11.6439C6.3278 11.9721 6.84964 12.1731 7.38462 12.2593V12.9231C7.38462 13.0863 7.44945 13.2428 7.56486 13.3582C7.68027 13.4736 7.83679 13.5385 8 13.5385C8.16321 13.5385 8.31974 13.4736 8.43514 13.3582C8.55055 13.2428 8.61539 13.0863 8.61539 12.9231V12.2585C9.15575 12.1773 9.66842 11.9664 10.1095 11.6439C10.7208 11.1852 11.0769 10.5411 11.0769 9.84615C11.0769 9.15118 10.7208 8.50708 10.1095 8.04841C9.66853 7.72557 9.15584 7.51441 8.61539 7.43303V5.00841C8.85333 5.07569 9.07405 5.18318 9.26031 5.33087L9.60082 5.60164C9.72867 5.70316 9.89161 5.74973 10.0538 5.73111C10.216 5.71249 10.3641 5.63021 10.4656 5.50236C10.5672 5.37451 10.6137 5.21157 10.5951 5.04939C10.5765 4.8872 10.4942 4.73906 10.3664 4.63754L10.0258 4.36677C9.61426 4.04663 9.12959 3.83376 8.61539 3.74728V3.07692Z"
+                                                    fill="white" />
+                                            </svg>
+
+                                            <span class="leaderboard__user__summ__value">488<span
+                                                    class="opacity">,000</span>
+                                        </div>
+
+                                        <span class="leaderboard__card__level__value">1ур.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" class="received__award__button">
+                            Получено
+                        </button>
+                    </div>
+
+                    <div class="leaderboard__card flex align__center justify__space__between">
+                        <div class="leaderboard__card__content flex align__center">
+                            <div class="leaderboard__user__avatar">
+                                <img src="/static/img/cho.png" alt="User avatar" />
+                            </div>
+
+                            <div class="leaderboard__card__text__container flex align__center">
+                                <div class="leaderboard__card__personal__text__container flex column">
+                                    <span class="leaderboard__username">Олег Тиньков</span>
+                                    <div class="leaderboard__summ__container flex align__center">
+                                        <div class="leaderboard__summ__content flex align__end">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 16 16" fill="none">
+                                                <path
+                                                    d="M6.73967 5.33009C6.92592 5.1824 7.14746 5.07491 7.38459 5.00681V7.30015C7.15053 7.23605 6.93138 7.12648 6.73967 6.97768C6.41638 6.72086 6.29167 6.41891 6.29167 6.15389C6.29167 5.88886 6.41638 5.58691 6.73967 5.33009ZM8.61536 11.0048V8.68763C8.90008 8.75738 9.16018 8.87471 9.37105 9.03307C9.72141 9.29563 9.84613 9.59594 9.84613 9.8462C9.84613 10.0965 9.72141 10.3968 9.37105 10.6593C9.14489 10.8239 8.88787 10.9419 8.61536 11.0048Z"
+                                                    fill="white" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M8 0C3.58154 0 0 3.58154 0 8C0 12.4185 3.58154 16 8 16C12.4185 16 16 12.4185 16 8C16 3.58154 12.4185 0 8 0ZM8.61539 3.07692C8.61539 2.91371 8.55055 2.75719 8.43514 2.64178C8.31974 2.52637 8.16321 2.46154 8 2.46154C7.83679 2.46154 7.68027 2.52637 7.56486 2.64178C7.44945 2.75719 7.38462 2.91371 7.38462 3.07692V3.74646C6.87004 3.83305 6.38507 4.04621 5.97333 4.36677C5.38913 4.83118 5.06092 5.47446 5.06092 6.15385C5.06092 6.83405 5.38913 7.47651 5.97415 7.94092C6.38605 8.26913 6.87836 8.4718 7.38462 8.56123V11.0047C7.11206 10.9415 6.85504 10.8241 6.62892 10.6593L5.90769 10.1177C5.84304 10.0693 5.76947 10.034 5.69119 10.0139C5.6129 9.99386 5.53143 9.98942 5.45143 10.0009C5.28986 10.0239 5.14408 10.1103 5.04615 10.2408C4.94823 10.3714 4.90618 10.5355 4.92926 10.6971C4.95234 10.8587 5.03866 11.0044 5.16923 11.1024L5.89046 11.6439C6.3278 11.9721 6.84964 12.1731 7.38462 12.2593V12.9231C7.38462 13.0863 7.44945 13.2428 7.56486 13.3582C7.68027 13.4736 7.83679 13.5385 8 13.5385C8.16321 13.5385 8.31974 13.4736 8.43514 13.3582C8.55055 13.2428 8.61539 13.0863 8.61539 12.9231V12.2585C9.15575 12.1773 9.66842 11.9664 10.1095 11.6439C10.7208 11.1852 11.0769 10.5411 11.0769 9.84615C11.0769 9.15118 10.7208 8.50708 10.1095 8.04841C9.66853 7.72557 9.15584 7.51441 8.61539 7.43303V5.00841C8.85333 5.07569 9.07405 5.18318 9.26031 5.33087L9.60082 5.60164C9.72867 5.70316 9.89161 5.74973 10.0538 5.73111C10.216 5.71249 10.3641 5.63021 10.4656 5.50236C10.5672 5.37451 10.6137 5.21157 10.5951 5.04939C10.5765 4.8872 10.4942 4.73906 10.3664 4.63754L10.0258 4.36677C9.61426 4.04663 9.12959 3.83376 8.61539 3.74728V3.07692Z"
+                                                    fill="white" />
+                                            </svg>
+
+                                            <span class="leaderboard__user__summ__value">488<span
+                                                    class="opacity">,000</span>
+                                        </div>
+
+                                        <span class="leaderboard__card__level__value">1ур.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" class="received__award__button">
+                            Получено
+                        </button>
+                    </div>
+
+                    <div class="leaderboard__card flex align__center justify__space__between">
+                        <div class="leaderboard__card__content flex align__center">
+                            <div class="leaderboard__user__avatar">
+                                <img src="/static/img/cho.png" alt="User avatar" />
+                            </div>
+
+                            <div class="leaderboard__card__text__container flex align__center">
+                                <div class="leaderboard__card__personal__text__container flex column">
+                                    <span class="leaderboard__username">Олег Тиньков</span>
+                                    <div class="leaderboard__summ__container flex align__center">
+                                        <div class="leaderboard__summ__content flex align__end">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 16 16" fill="none">
+                                                <path
+                                                    d="M6.73967 5.33009C6.92592 5.1824 7.14746 5.07491 7.38459 5.00681V7.30015C7.15053 7.23605 6.93138 7.12648 6.73967 6.97768C6.41638 6.72086 6.29167 6.41891 6.29167 6.15389C6.29167 5.88886 6.41638 5.58691 6.73967 5.33009ZM8.61536 11.0048V8.68763C8.90008 8.75738 9.16018 8.87471 9.37105 9.03307C9.72141 9.29563 9.84613 9.59594 9.84613 9.8462C9.84613 10.0965 9.72141 10.3968 9.37105 10.6593C9.14489 10.8239 8.88787 10.9419 8.61536 11.0048Z"
+                                                    fill="white" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M8 0C3.58154 0 0 3.58154 0 8C0 12.4185 3.58154 16 8 16C12.4185 16 16 12.4185 16 8C16 3.58154 12.4185 0 8 0ZM8.61539 3.07692C8.61539 2.91371 8.55055 2.75719 8.43514 2.64178C8.31974 2.52637 8.16321 2.46154 8 2.46154C7.83679 2.46154 7.68027 2.52637 7.56486 2.64178C7.44945 2.75719 7.38462 2.91371 7.38462 3.07692V3.74646C6.87004 3.83305 6.38507 4.04621 5.97333 4.36677C5.38913 4.83118 5.06092 5.47446 5.06092 6.15385C5.06092 6.83405 5.38913 7.47651 5.97415 7.94092C6.38605 8.26913 6.87836 8.4718 7.38462 8.56123V11.0047C7.11206 10.9415 6.85504 10.8241 6.62892 10.6593L5.90769 10.1177C5.84304 10.0693 5.76947 10.034 5.69119 10.0139C5.6129 9.99386 5.53143 9.98942 5.45143 10.0009C5.28986 10.0239 5.14408 10.1103 5.04615 10.2408C4.94823 10.3714 4.90618 10.5355 4.92926 10.6971C4.95234 10.8587 5.03866 11.0044 5.16923 11.1024L5.89046 11.6439C6.3278 11.9721 6.84964 12.1731 7.38462 12.2593V12.9231C7.38462 13.0863 7.44945 13.2428 7.56486 13.3582C7.68027 13.4736 7.83679 13.5385 8 13.5385C8.16321 13.5385 8.31974 13.4736 8.43514 13.3582C8.55055 13.2428 8.61539 13.0863 8.61539 12.9231V12.2585C9.15575 12.1773 9.66842 11.9664 10.1095 11.6439C10.7208 11.1852 11.0769 10.5411 11.0769 9.84615C11.0769 9.15118 10.7208 8.50708 10.1095 8.04841C9.66853 7.72557 9.15584 7.51441 8.61539 7.43303V5.00841C8.85333 5.07569 9.07405 5.18318 9.26031 5.33087L9.60082 5.60164C9.72867 5.70316 9.89161 5.74973 10.0538 5.73111C10.216 5.71249 10.3641 5.63021 10.4656 5.50236C10.5672 5.37451 10.6137 5.21157 10.5951 5.04939C10.5765 4.8872 10.4942 4.73906 10.3664 4.63754L10.0258 4.36677C9.61426 4.04663 9.12959 3.83376 8.61539 3.74728V3.07692Z"
+                                                    fill="white" />
+                                            </svg>
+
+                                            <span class="leaderboard__user__summ__value">488<span
+                                                    class="opacity">,000</span>
+                                        </div>
+
+                                        <span class="leaderboard__card__level__value">1ур.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" class="received__award__button">
+                            Получено
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -609,7 +859,7 @@
             </div>
 
             <div class="item__characters__container flex align__center">
-                <span class="item__level flex align__center justify__center">1 ур.</span>
+                <span class="item__level flex align__center justify__center">2 ур.</span>
                 <span class="item__water__limit__container flex align__center">
                     <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
                         <path
@@ -651,7 +901,7 @@
                         </div>
                         <div class="experience__checkpoint">
                         </div>
-                        <span class="item__experience__level__title middle__level">16 ур.</span>
+                        <span class="item__experience__level__title middle__level">2 ур.</span>
                     </div>
                     <div class="item__experience__path__wrapper flex align__center">
                         <div class="experience__dot achieved"></div>
@@ -675,7 +925,7 @@
                         </div>
                         <div class="experience__checkpoint">
                         </div>
-                        <span class="item__experience__level__title last__level">20 ур.</span>
+                        <span class="item__experience__level__title achieved last__level">3 ур.</span>
                     </div>
                 </div>
             </div>
@@ -711,7 +961,7 @@
                     <div class="user__avatar__container flex column">
                         <img src="/static/img/userProfileAvatar.png" alt="Avatar" />
                         <span class="user__num__value flex align__center justify__center text__center">
-                            1
+                            13
                         </span>
                     </div>
                     <div class="user__text__container flex column">
@@ -764,8 +1014,7 @@
 
                 <div class="store__cards__container thief__container flex column">
                     <div class="store__card flex column justify__space__between" data-level="2" data-boost-effect="366"
-                        data-title="Садовая лейка"
-                        data-preview-image="https://tapalka.wizardstech.ru:8443/images/products/garden_leika.png"
+                        data-title="Садовая лейка" data-preview-image="/static/img/watering.png"
                         data-description="Садовая лейка."
                         data-etaps='[{"level":1,"imgUrl":"/static/img/watering.png"}, {"level":25,"imgUrl":"/static/img/watering-right.png"}, {"level":50,"imgUrl":"/static/img/watering-bottom.png"}]'
                         data-price-to-improve="10,000">
@@ -856,8 +1105,8 @@
                                         </svg>
 
                                         <div class="store__card__footer__text__container flex column">
-                                            <span class="store__card__footer__description">На 14 ур.</span>
-                                            <span class="store__card__footer__title">+1500</span>
+                                            <span class="store__card__footer__description">На 13 ур.</span>
+                                            <span class="store__card__footer__title">+0</span>
                                         </div>
                                     </div>
                                 </div>
@@ -978,8 +1227,8 @@
                                         </svg>
 
                                         <div class="store__card__footer__text__container flex column">
-                                            <span class="store__card__footer__description">На 14 ур.</span>
-                                            <span class="store__card__footer__title">+1500</span>
+                                            <span class="store__card__footer__description">На 13 ур.</span>
+                                            <span class="store__card__footer__title">+0</span>
                                         </div>
                                     </div>
                                 </div>
@@ -1573,9 +1822,9 @@
                     </span>
                 </div>
                 <div class="flex align__center justify__space__between">
-                    <div class="link__with__copy__container flex align__center justify__space__between">
-                        <span class="link__to__copy selected__event__link flex align__center"
-                            data-link="https://github.com/4min-dev">
+                    <div class="link__with__copy__container flex align__center justify__space__between"
+                        data-link="https://github.com/4min-dev">
+                        <span class="link__to__copy selected__event__link flex align__center">
                             https://github.com/4min-dev
                         </span>
                         <button type="button" class="copy__link__button">
@@ -1625,7 +1874,7 @@
                     <div class="user__avatar__container flex column">
                         <img src="/static/img/userProfileAvatar.png" alt="Avatar" />
                         <span class="user__num__value flex align__center justify__center text__center">
-                            1
+                            13
                         </span>
                     </div>
                     <div class="user__text__container flex column">
@@ -1679,8 +1928,722 @@
                 </div>
 
                 <div class="daily__rewards__container flex flex__wrap">
-                    <!-- <div class="daily__reward__card finally__reward flex column align__center justify__space__between"
-                        data-day="31">
+                    <div class="daily__reward__card flex column align__center justify__space__between" data-day="1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="31" height="24" viewBox="0 0 31 24" fill="none">
+                            <g filter="url(#filter0_d_508_283)">
+                                <path d="M6.5 12L12.5004 17.6842L24.5 6.3158" stroke="#17C8B6" stroke-width="3"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <filter id="filter0_d_508_283" x="0.3" y="0.115796" width="30.4" height="23.7684"
+                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                    <feOffset />
+                                    <feGaussianBlur stdDeviation="2.35" />
+                                    <feComposite in2="hardAlpha" operator="out" />
+                                    <feColorMatrix type="matrix"
+                                        values="0 0 0 0 0.0901961 0 0 0 0 0.784314 0 0 0 0 0.713726 0 0 0 0.35 0" />
+                                    <feBlend mode="normal" in2="BackgroundImageFix"
+                                        result="effect1_dropShadow_508_283" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_508_283"
+                                        result="shape" />
+                                </filter>
+                            </defs>
+                        </svg>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            День 1
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between ready__to__get"
+                        data-day="2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            Собрать
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between ready__to__get"
+                        data-day="3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            Собрать
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between ready__to__get"
+                        data-day="4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            Собрать
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between ready__to__get"
+                        data-day="5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            Собрать
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between" data-day="6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            День 6
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between" data-day="7">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            День 7
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between" data-day="8">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            День 8
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between" data-day="9">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            День 9
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between" data-day="10">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            День 10
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between" data-day="11">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            День 11
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between" data-day="12">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            День 12
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between" data-day="13">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            День 13
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between" data-day="14">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            День 14
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between" data-day="15">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            День 15
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between" data-day="16">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            День 16
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between" data-day="17">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            День 17
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between" data-day="18">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            День 18
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between" data-day="19">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            День 19
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between" data-day="20">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            День 20
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between" data-day="21">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            День 21
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between" data-day="22">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            День 22
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between" data-day="23">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            День 23
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between" data-day="24">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            День 24
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between" data-day="25">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            День 25
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between" data-day="26">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            День 26
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between" data-day="27">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            День 27
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between" data-day="28">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            День 28
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between" data-day="29">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            День 29
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card flex column align__center justify__space__between" data-day="30">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                            <path
+                                d="M3.16667 21.9178V3.42466H10.5566C11.749 3.42466 12.75 3.66438 13.5595 4.14384C14.369 4.62329 14.9783 5.24401 15.3874 6.00599C15.7965 6.75942 16.0011 7.55565 16.0011 8.39469C16.0011 9.41353 15.7443 10.2868 15.2307 11.0146C14.7259 11.7423 14.0426 12.2389 13.1809 12.5043L13.1548 11.875C14.356 12.1661 15.2786 12.7354 15.9227 13.583C16.5668 14.4221 16.8889 15.4024 16.8889 16.524C16.8889 17.6113 16.6669 18.5574 16.223 19.3622C15.7878 20.167 15.148 20.7962 14.3037 21.25C13.4681 21.6952 12.4541 21.9178 11.2616 21.9178H3.16667ZM5.93461 19.3622H10.8438C11.4618 19.3622 12.0145 19.2466 12.502 19.0154C12.9981 18.7842 13.3854 18.4546 13.664 18.0265C13.9512 17.5899 14.0948 17.0719 14.0948 16.4726C14.0948 15.9161 13.9686 15.4152 13.7162 14.97C13.4725 14.5163 13.1156 14.161 12.6456 13.9041C12.1843 13.6387 11.6402 13.506 11.0135 13.506H5.93461V19.3622ZM5.93461 10.976H10.5174C11.0222 10.976 11.4749 10.8776 11.8752 10.6807C12.2843 10.4752 12.6064 10.1841 12.8414 9.80736C13.0851 9.42209 13.207 8.95976 13.207 8.42038C13.207 7.7012 12.9633 7.11044 12.4758 6.64812C11.9884 6.18579 11.3356 5.95462 10.5174 5.95462H5.93461V10.976Z"
+                                fill="white" />
+                            <path d="M0 7.87671H5.27778V9.24658H0V7.87671Z" fill="white" />
+                            <path d="M0 16.4384H5.27778V17.8082H0V16.4384Z" fill="white" />
+                            <path d="M8.44444 0H9.85185V5.13699H8.44444V0Z" fill="white" />
+                            <path d="M8.44444 19.863H9.85185V25H8.44444V19.863Z" fill="white" />
+                            <path d="M13.7222 7.87671H19V9.24658H13.7222V7.87671Z" fill="white" />
+                            <path d="M14.4259 16.4384H19V17.8082H14.4259V16.4384Z" fill="white" />
+                        </svg>
+
+                        <span class="daily__reward__value text__uppercase">
+                            3к
+                        </span>
+
+                        <div
+                            class="get__reward__button flex align__center justify__center daily__button text__uppercase">
+                            День 30
+                        </div>
+                    </div>
+
+                    <div class="daily__reward__card finally__reward flex column align__center justify__space__between"
+                        data-day="30">
                         <div class="finally__reward__value flex column">
                             <span class="finally__reward__content flex align__center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewBox="0 0 20 24"
@@ -1730,7 +2693,7 @@
                             class="get__reward__button flex align__center justify__center daily__button text__uppercase">
                             <span>День 31</span>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
             </div>
 
@@ -1742,19 +2705,769 @@
                                 Все
                             </span>
 
-                            <span class="event__category__value default__category__value"></span>
+                            <span class="event__category__value default__category__value">1</span>
                         </li>
                     </ul>
 
-                    <div class="event__navbar__line"></div>
+                    <div class="event__navbar__line">1</div>
                 </div>
 
                 <div class="event__blocks__container flex column">
-                    <div class="event__block flex column daily__events__block">
+                    <div class="event__block flex column">
+                        <div class="event__card flex align__start justify__space__between"
+                            data-title="Регистрация на платформе Bonsa2i"
+                            data-description="Пополни свой баланс в Bonsai Casino и получи свою награду"
+                            data-award="+130,000" data-link="https://github.com/4min-dev"
+                            data-short-link="https://github.com/4min dev"
+                            data-note="Тут будет примечание, его можно убрать или добавить через админку, в разделе добавления и редактирования заданий."
+                            data-etaps="[{&quot;name&quot;:&quot;Перейдите по ссылке выше&quot;}, {&quot;name&quot;:&quot;Зарегистрироваться на плаформе&quot;}, {&quot;name&quot;: &quot;Купить депозит удобным для вас способ...&quot;}]">
+                            <div class="about__event__container flex align__start">
+                                <div class="event__card__image flex align__center justify__center">
+                                    <img src="/static/img/person.png" alt="Event icon">
+                                </div>
+                                <div class="event__card__text__container flex column">
+                                    <span class="event__card__title">
+                                        Регистрация на платфор...
+                                    </span>
+                                    <span class="event__card__award__container flex align__center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="24"
+                                            viewBox="0 0 22 24" fill="none">
+                                            <g>
+                                                <g>
+                                                    <path
+                                                        d="M4 11C4 7.13401 7.13401 4 11 4C14.866 4 18 7.13401 18 11C18 14.866 14.866 18 11 18C7.13401 18 4 14.866 4 11Z"
+                                                        fill="url(#paint0_linear_493_601)"></path>
+                                                </g>
+                                                <g>
+                                                    <path
+                                                        d="M8.71528 14.6998V7.1484H11.5513C12.009 7.1484 12.3931 7.24629 12.7038 7.44207C13.0144 7.63784 13.2483 7.8913 13.4053 8.20245C13.5623 8.5101 13.6408 8.83522 13.6408 9.17783C13.6408 9.59386 13.5422 9.95045 13.3451 10.2476C13.1514 10.5448 12.8892 10.7475 12.5585 10.8559L12.5484 10.599C13.0094 10.7178 13.3635 10.9503 13.6107 11.2964C13.8579 11.639 13.9815 12.0393 13.9815 12.4973C13.9815 12.9413 13.8963 13.3276 13.7259 13.6562C13.5589 13.9848 13.3134 14.2418 12.9894 14.4271C12.6687 14.6089 12.2795 14.6998 11.8219 14.6998H8.71528ZM9.77754 13.6562H11.6615C11.8987 13.6562 12.1108 13.609 12.2979 13.5146C12.4883 13.4202 12.637 13.2856 12.7438 13.1108C12.8541 12.9325 12.9092 12.721 12.9092 12.4763C12.9092 12.2491 12.8608 12.0446 12.7639 11.8628C12.6704 11.6775 12.5334 11.5324 12.353 11.4275C12.176 11.3191 11.9672 11.2649 11.7267 11.2649H9.77754V13.6562ZM9.77754 10.2319H11.5363C11.73 10.2319 11.9037 10.1917 12.0574 10.1113C12.2144 10.0274 12.338 9.9085 12.4282 9.75467C12.5217 9.59735 12.5685 9.40857 12.5685 9.18832C12.5685 8.89466 12.4749 8.65343 12.2879 8.46465C12.1008 8.27586 11.8503 8.18147 11.5363 8.18147H9.77754V10.2319Z"
+                                                        fill="url(#paint1_linear_493_601)"></path>
+                                                    <path d="M7.5 8.96632H9.52546V9.52569H7.5V8.96632Z"
+                                                        fill="url(#paint2_linear_493_601)">
+                                                    </path>
+                                                    <path d="M7.5 12.4623H9.52546V13.0217H7.5V12.4623Z"
+                                                        fill="url(#paint3_linear_493_601)">
+                                                    </path>
+                                                    <path d="M10.7407 5.75H11.2809V7.8476H10.7407V5.75Z"
+                                                        fill="url(#paint4_linear_493_601)">
+                                                    </path>
+                                                    <path d="M10.7407 13.8607H11.2809V15.9583H10.7407V13.8607Z"
+                                                        fill="url(#paint5_linear_493_601)"></path>
+                                                    <path d="M12.7662 8.96632H14.7917V9.52569H12.7662V8.96632Z"
+                                                        fill="url(#paint6_linear_493_601)"></path>
+                                                    <path d="M13.0363 12.4623H14.7917V13.0217H13.0363V12.4623Z"
+                                                        fill="url(#paint7_linear_493_601)"></path>
+                                                </g>
+                                            </g>
+                                            <defs>
+                                                <linearGradient id="paint0_linear_493_601" x1="11" y1="4" x2="11"
+                                                    y2="18" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FA84AF"></stop>
+                                                    <stop offset="1" stop-color="#FA84AF"></stop>
+                                                </linearGradient>
+                                                <linearGradient id="paint1_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF"></stop>
+                                                    <stop offset="1" stop-color="#CDF1ED"></stop>
+                                                </linearGradient>
+                                                <linearGradient id="paint2_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF"></stop>
+                                                    <stop offset="1" stop-color="#CDF1ED"></stop>
+                                                </linearGradient>
+                                                <linearGradient id="paint3_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF"></stop>
+                                                    <stop offset="1" stop-color="#CDF1ED"></stop>
+                                                </linearGradient>
+                                                <linearGradient id="paint4_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF"></stop>
+                                                    <stop offset="1" stop-color="#CDF1ED"></stop>
+                                                </linearGradient>
+                                                <linearGradient id="paint5_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF"></stop>
+                                                    <stop offset="1" stop-color="#CDF1ED"></stop>
+                                                </linearGradient>
+                                                <linearGradient id="paint6_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF"></stop>
+                                                    <stop offset="1" stop-color="#CDF1ED"></stop>
+                                                </linearGradient>
+                                                <linearGradient id="paint7_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF"></stop>
+                                                    <stop offset="1" stop-color="#CDF1ED"></stop>
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+
+                                        <span class="event__card__award__value">
+                                            +10,000
+                                        </span>
+                                    </span>
+
+                                </div>
+                            </div>
+
+                            <button type="button" class="get__award__button">
+                                Забрать
+                            </button>
+                        </div>
                     </div>
 
-                    <div class="event__block flex column default__events__block">
+                    <div class="event__block flex column">
                         <span class="event__block__title">Постоянные задания️</span>
+
+                        <div class="event__card flex align__start justify__space__between"
+                            data-title="Отдайте Олегу банку с огурцами"
+                            data-description="Отдайте Олегу банку огурцов и получите свою награду" data-award="+130,000"
+                            data-link="https://github.com/4min-dev" data-short-link="https://github.com/4min-dev"
+                            data-note="Тут будет примечание, его можно убрать или добавить через админку, в разделе добавления и редактирования заданий."
+                            data-etaps='[{"title":"Взять банку"}, {"title":"Найти Олега"}, {"title": "Отдать банку"}]'>
+                            <div class="about__event__container flex align__start">
+                                <div class="event__card__image flex align__center justify__center">
+                                    <img src="/static/img/person.png" alt="Event icon" />
+                                </div>
+                                <div class="event__card__text__container flex column">
+                                    <span class="event__card__title">
+                                        Отдайте Олегу банку с огурцами
+                                    </span>
+                                    <span class="event__card__award__container flex align__center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="24"
+                                            viewBox="0 0 22 24" fill="none">
+                                            <g>
+                                                <g>
+                                                    <path
+                                                        d="M4 11C4 7.13401 7.13401 4 11 4C14.866 4 18 7.13401 18 11C18 14.866 14.866 18 11 18C7.13401 18 4 14.866 4 11Z"
+                                                        fill="url(#paint0_linear_493_601)" />
+                                                </g>
+                                                <g>
+                                                    <path
+                                                        d="M8.71528 14.6998V7.1484H11.5513C12.009 7.1484 12.3931 7.24629 12.7038 7.44207C13.0144 7.63784 13.2483 7.8913 13.4053 8.20245C13.5623 8.5101 13.6408 8.83522 13.6408 9.17783C13.6408 9.59386 13.5422 9.95045 13.3451 10.2476C13.1514 10.5448 12.8892 10.7475 12.5585 10.8559L12.5484 10.599C13.0094 10.7178 13.3635 10.9503 13.6107 11.2964C13.8579 11.639 13.9815 12.0393 13.9815 12.4973C13.9815 12.9413 13.8963 13.3276 13.7259 13.6562C13.5589 13.9848 13.3134 14.2418 12.9894 14.4271C12.6687 14.6089 12.2795 14.6998 11.8219 14.6998H8.71528ZM9.77754 13.6562H11.6615C11.8987 13.6562 12.1108 13.609 12.2979 13.5146C12.4883 13.4202 12.637 13.2856 12.7438 13.1108C12.8541 12.9325 12.9092 12.721 12.9092 12.4763C12.9092 12.2491 12.8608 12.0446 12.7639 11.8628C12.6704 11.6775 12.5334 11.5324 12.353 11.4275C12.176 11.3191 11.9672 11.2649 11.7267 11.2649H9.77754V13.6562ZM9.77754 10.2319H11.5363C11.73 10.2319 11.9037 10.1917 12.0574 10.1113C12.2144 10.0274 12.338 9.9085 12.4282 9.75467C12.5217 9.59735 12.5685 9.40857 12.5685 9.18832C12.5685 8.89466 12.4749 8.65343 12.2879 8.46465C12.1008 8.27586 11.8503 8.18147 11.5363 8.18147H9.77754V10.2319Z"
+                                                        fill="url(#paint1_linear_493_601)" />
+                                                    <path d="M7.5 8.96632H9.52546V9.52569H7.5V8.96632Z"
+                                                        fill="url(#paint2_linear_493_601)" />
+                                                    <path d="M7.5 12.4623H9.52546V13.0217H7.5V12.4623Z"
+                                                        fill="url(#paint3_linear_493_601)" />
+                                                    <path d="M10.7407 5.75H11.2809V7.8476H10.7407V5.75Z"
+                                                        fill="url(#paint4_linear_493_601)" />
+                                                    <path d="M10.7407 13.8607H11.2809V15.9583H10.7407V13.8607Z"
+                                                        fill="url(#paint5_linear_493_601)" />
+                                                    <path d="M12.7662 8.96632H14.7917V9.52569H12.7662V8.96632Z"
+                                                        fill="url(#paint6_linear_493_601)" />
+                                                    <path d="M13.0363 12.4623H14.7917V13.0217H13.0363V12.4623Z"
+                                                        fill="url(#paint7_linear_493_601)" />
+                                                </g>
+                                            </g>
+                                            <defs>
+                                                <linearGradient id="paint0_linear_493_601" x1="11" y1="4" x2="11"
+                                                    y2="18" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FA84AF" />
+                                                    <stop offset="1" stop-color="#FA84AF" />
+                                                </linearGradient>
+                                                <linearGradient id="paint1_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint2_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint3_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint4_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint5_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint6_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint7_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+
+                                        <span class="event__card__award__value">
+                                            +10,000
+                                        </span>
+                                    </span>
+
+                                </div>
+                            </div>
+
+                            <button type="button" class="get__event__button get__popup__button"
+                                data-popup-id="selected__event__popup">
+                                <svg xmlns=" http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <g clip-path="url(#clip0_508_299)">
+                                        <path d="M10 17L15 12" stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M15 12L10 7" stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_508_299">
+                                            <rect width="24" height="24" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </button>
+                        </div>
+
+                        <div class="event__card flex align__start justify__space__between"
+                            data-title="Регистрация на платформе Bonsa2i"
+                            data-description="Пополни свой баланс в Bonsai Casino и получи свою награду"
+                            data-award="+130,000" data-link="https://github.com/4min-dev"
+                            data-short-link="https://github.com/4min dev"
+                            data-note="Тут будет примечание, его можно убрать или добавить через админку, в разделе добавления и редактирования заданий."
+                            data-etaps='[{"title":"Перейдите по ссылке выше"}, {"title":"Зарегистрироваться на плаформе"}, {"title": "Купить депозит удобным для вас способ..."}]'>
+                            <div class="about__event__container flex align__start">
+                                <div class="event__card__image flex align__center justify__center">
+                                    <img src="/static/img/person.png" alt="Event icon" />
+                                </div>
+                                <div class="event__card__text__container flex column">
+                                    <span class="event__card__title">
+                                        Регистрация на платфор...
+                                    </span>
+                                    <span class="event__card__award__container flex align__center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="24"
+                                            viewBox="0 0 22 24" fill="none">
+                                            <g>
+                                                <g>
+                                                    <path
+                                                        d="M4 11C4 7.13401 7.13401 4 11 4C14.866 4 18 7.13401 18 11C18 14.866 14.866 18 11 18C7.13401 18 4 14.866 4 11Z"
+                                                        fill="url(#paint0_linear_493_601)" />
+                                                </g>
+                                                <g>
+                                                    <path
+                                                        d="M8.71528 14.6998V7.1484H11.5513C12.009 7.1484 12.3931 7.24629 12.7038 7.44207C13.0144 7.63784 13.2483 7.8913 13.4053 8.20245C13.5623 8.5101 13.6408 8.83522 13.6408 9.17783C13.6408 9.59386 13.5422 9.95045 13.3451 10.2476C13.1514 10.5448 12.8892 10.7475 12.5585 10.8559L12.5484 10.599C13.0094 10.7178 13.3635 10.9503 13.6107 11.2964C13.8579 11.639 13.9815 12.0393 13.9815 12.4973C13.9815 12.9413 13.8963 13.3276 13.7259 13.6562C13.5589 13.9848 13.3134 14.2418 12.9894 14.4271C12.6687 14.6089 12.2795 14.6998 11.8219 14.6998H8.71528ZM9.77754 13.6562H11.6615C11.8987 13.6562 12.1108 13.609 12.2979 13.5146C12.4883 13.4202 12.637 13.2856 12.7438 13.1108C12.8541 12.9325 12.9092 12.721 12.9092 12.4763C12.9092 12.2491 12.8608 12.0446 12.7639 11.8628C12.6704 11.6775 12.5334 11.5324 12.353 11.4275C12.176 11.3191 11.9672 11.2649 11.7267 11.2649H9.77754V13.6562ZM9.77754 10.2319H11.5363C11.73 10.2319 11.9037 10.1917 12.0574 10.1113C12.2144 10.0274 12.338 9.9085 12.4282 9.75467C12.5217 9.59735 12.5685 9.40857 12.5685 9.18832C12.5685 8.89466 12.4749 8.65343 12.2879 8.46465C12.1008 8.27586 11.8503 8.18147 11.5363 8.18147H9.77754V10.2319Z"
+                                                        fill="url(#paint1_linear_493_601)" />
+                                                    <path d="M7.5 8.96632H9.52546V9.52569H7.5V8.96632Z"
+                                                        fill="url(#paint2_linear_493_601)" />
+                                                    <path d="M7.5 12.4623H9.52546V13.0217H7.5V12.4623Z"
+                                                        fill="url(#paint3_linear_493_601)" />
+                                                    <path d="M10.7407 5.75H11.2809V7.8476H10.7407V5.75Z"
+                                                        fill="url(#paint4_linear_493_601)" />
+                                                    <path d="M10.7407 13.8607H11.2809V15.9583H10.7407V13.8607Z"
+                                                        fill="url(#paint5_linear_493_601)" />
+                                                    <path d="M12.7662 8.96632H14.7917V9.52569H12.7662V8.96632Z"
+                                                        fill="url(#paint6_linear_493_601)" />
+                                                    <path d="M13.0363 12.4623H14.7917V13.0217H13.0363V12.4623Z"
+                                                        fill="url(#paint7_linear_493_601)" />
+                                                </g>
+                                            </g>
+                                            <defs>
+                                                <linearGradient id="paint0_linear_493_601" x1="11" y1="4" x2="11"
+                                                    y2="18" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FA84AF" />
+                                                    <stop offset="1" stop-color="#FA84AF" />
+                                                </linearGradient>
+                                                <linearGradient id="paint1_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint2_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint3_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint4_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint5_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint6_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint7_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+
+                                        <span class="event__card__award__value">
+                                            +10,000
+                                        </span>
+                                    </span>
+
+                                </div>
+                            </div>
+
+                            <button type="button" class="get__award__button">
+                                Забрать
+                            </button>
+                        </div>
+
+                        <div class="event__card flex align__start justify__space__between"
+                            data-title="Регистрация на платформе Bonsa2i"
+                            data-description="Пополни свой баланс в Bonsai Casino и получи свою награду"
+                            data-award="+130,000" data-link="https://github.com/4min-dev"
+                            data-short-link="https://github.com/4min dev"
+                            data-note="Тут будет примечание, его можно убрать или добавить через админку, в разделе добавления и редактирования заданий."
+                            data-etaps='[{"title":"Перейдите по ссылке выше"}, {"title":"Зарегистрироваться на плаформе"}, {"title": "Купить депозит удобным для вас способ..."}]'>
+                            <div class="about__event__container flex align__start">
+                                <div class="event__card__image flex align__center justify__center">
+                                    <img src="/static/img/person.png" alt="Event icon" />
+                                </div>
+                                <div class="event__card__text__container flex column">
+                                    <span class="event__card__title">
+                                        Регистрация на платфор...
+                                    </span>
+                                    <span class="event__card__award__container flex align__center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="24"
+                                            viewBox="0 0 22 24" fill="none">
+                                            <g>
+                                                <g>
+                                                    <path
+                                                        d="M4 11C4 7.13401 7.13401 4 11 4C14.866 4 18 7.13401 18 11C18 14.866 14.866 18 11 18C7.13401 18 4 14.866 4 11Z"
+                                                        fill="url(#paint0_linear_493_601)" />
+                                                </g>
+                                                <g>
+                                                    <path
+                                                        d="M8.71528 14.6998V7.1484H11.5513C12.009 7.1484 12.3931 7.24629 12.7038 7.44207C13.0144 7.63784 13.2483 7.8913 13.4053 8.20245C13.5623 8.5101 13.6408 8.83522 13.6408 9.17783C13.6408 9.59386 13.5422 9.95045 13.3451 10.2476C13.1514 10.5448 12.8892 10.7475 12.5585 10.8559L12.5484 10.599C13.0094 10.7178 13.3635 10.9503 13.6107 11.2964C13.8579 11.639 13.9815 12.0393 13.9815 12.4973C13.9815 12.9413 13.8963 13.3276 13.7259 13.6562C13.5589 13.9848 13.3134 14.2418 12.9894 14.4271C12.6687 14.6089 12.2795 14.6998 11.8219 14.6998H8.71528ZM9.77754 13.6562H11.6615C11.8987 13.6562 12.1108 13.609 12.2979 13.5146C12.4883 13.4202 12.637 13.2856 12.7438 13.1108C12.8541 12.9325 12.9092 12.721 12.9092 12.4763C12.9092 12.2491 12.8608 12.0446 12.7639 11.8628C12.6704 11.6775 12.5334 11.5324 12.353 11.4275C12.176 11.3191 11.9672 11.2649 11.7267 11.2649H9.77754V13.6562ZM9.77754 10.2319H11.5363C11.73 10.2319 11.9037 10.1917 12.0574 10.1113C12.2144 10.0274 12.338 9.9085 12.4282 9.75467C12.5217 9.59735 12.5685 9.40857 12.5685 9.18832C12.5685 8.89466 12.4749 8.65343 12.2879 8.46465C12.1008 8.27586 11.8503 8.18147 11.5363 8.18147H9.77754V10.2319Z"
+                                                        fill="url(#paint1_linear_493_601)" />
+                                                    <path d="M7.5 8.96632H9.52546V9.52569H7.5V8.96632Z"
+                                                        fill="url(#paint2_linear_493_601)" />
+                                                    <path d="M7.5 12.4623H9.52546V13.0217H7.5V12.4623Z"
+                                                        fill="url(#paint3_linear_493_601)" />
+                                                    <path d="M10.7407 5.75H11.2809V7.8476H10.7407V5.75Z"
+                                                        fill="url(#paint4_linear_493_601)" />
+                                                    <path d="M10.7407 13.8607H11.2809V15.9583H10.7407V13.8607Z"
+                                                        fill="url(#paint5_linear_493_601)" />
+                                                    <path d="M12.7662 8.96632H14.7917V9.52569H12.7662V8.96632Z"
+                                                        fill="url(#paint6_linear_493_601)" />
+                                                    <path d="M13.0363 12.4623H14.7917V13.0217H13.0363V12.4623Z"
+                                                        fill="url(#paint7_linear_493_601)" />
+                                                </g>
+                                            </g>
+                                            <defs>
+                                                <linearGradient id="paint0_linear_493_601" x1="11" y1="4" x2="11"
+                                                    y2="18" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FA84AF" />
+                                                    <stop offset="1" stop-color="#FA84AF" />
+                                                </linearGradient>
+                                                <linearGradient id="paint1_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint2_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint3_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint4_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint5_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint6_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint7_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+
+                                        <span class="event__card__award__value">
+                                            +10,000
+                                        </span>
+                                    </span>
+
+                                </div>
+                            </div>
+
+                            <button type="button" class="get__award__button">
+                                Забрать
+                            </button>
+                        </div>
+
+                        <div class="event__card flex align__start justify__space__between"
+                            data-title="Регистрация на платформе Bonsa434i"
+                            data-description="Пополни свой баланс в Bonsai Casino и получи свою награду"
+                            data-award="+130,000" data-link="https://github.com/4min-dev"
+                            data-short-link="https://github.com/4min dev"
+                            data-note="Тут будет примечание, его можно убрать или добавить через админку, в разделе добавления и редактирования заданий."
+                            data-etaps='[{"title":"Перейдите по ссылке выше"}, {"title":"Зарегистрироваться на плаформе"}, {"title": "Купить депозит удобным для вас способ..."}]'>
+                            <div class="about__event__container flex align__start">
+                                <div class="event__card__image flex align__center justify__center">
+                                    <img src="/static/img/person.png" alt="Event icon" />
+                                </div>
+                                <div class="event__card__text__container flex column">
+                                    <span class="event__card__title">
+                                        Регистрация на платфор...
+                                    </span>
+                                    <span class="event__card__award__container flex align__center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="24"
+                                            viewBox="0 0 22 24" fill="none">
+                                            <g>
+                                                <g>
+                                                    <path
+                                                        d="M4 11C4 7.13401 7.13401 4 11 4C14.866 4 18 7.13401 18 11C18 14.866 14.866 18 11 18C7.13401 18 4 14.866 4 11Z"
+                                                        fill="url(#paint0_linear_493_601)" />
+                                                </g>
+                                                <g>
+                                                    <path
+                                                        d="M8.71528 14.6998V7.1484H11.5513C12.009 7.1484 12.3931 7.24629 12.7038 7.44207C13.0144 7.63784 13.2483 7.8913 13.4053 8.20245C13.5623 8.5101 13.6408 8.83522 13.6408 9.17783C13.6408 9.59386 13.5422 9.95045 13.3451 10.2476C13.1514 10.5448 12.8892 10.7475 12.5585 10.8559L12.5484 10.599C13.0094 10.7178 13.3635 10.9503 13.6107 11.2964C13.8579 11.639 13.9815 12.0393 13.9815 12.4973C13.9815 12.9413 13.8963 13.3276 13.7259 13.6562C13.5589 13.9848 13.3134 14.2418 12.9894 14.4271C12.6687 14.6089 12.2795 14.6998 11.8219 14.6998H8.71528ZM9.77754 13.6562H11.6615C11.8987 13.6562 12.1108 13.609 12.2979 13.5146C12.4883 13.4202 12.637 13.2856 12.7438 13.1108C12.8541 12.9325 12.9092 12.721 12.9092 12.4763C12.9092 12.2491 12.8608 12.0446 12.7639 11.8628C12.6704 11.6775 12.5334 11.5324 12.353 11.4275C12.176 11.3191 11.9672 11.2649 11.7267 11.2649H9.77754V13.6562ZM9.77754 10.2319H11.5363C11.73 10.2319 11.9037 10.1917 12.0574 10.1113C12.2144 10.0274 12.338 9.9085 12.4282 9.75467C12.5217 9.59735 12.5685 9.40857 12.5685 9.18832C12.5685 8.89466 12.4749 8.65343 12.2879 8.46465C12.1008 8.27586 11.8503 8.18147 11.5363 8.18147H9.77754V10.2319Z"
+                                                        fill="url(#paint1_linear_493_601)" />
+                                                    <path d="M7.5 8.96632H9.52546V9.52569H7.5V8.96632Z"
+                                                        fill="url(#paint2_linear_493_601)" />
+                                                    <path d="M7.5 12.4623H9.52546V13.0217H7.5V12.4623Z"
+                                                        fill="url(#paint3_linear_493_601)" />
+                                                    <path d="M10.7407 5.75H11.2809V7.8476H10.7407V5.75Z"
+                                                        fill="url(#paint4_linear_493_601)" />
+                                                    <path d="M10.7407 13.8607H11.2809V15.9583H10.7407V13.8607Z"
+                                                        fill="url(#paint5_linear_493_601)" />
+                                                    <path d="M12.7662 8.96632H14.7917V9.52569H12.7662V8.96632Z"
+                                                        fill="url(#paint6_linear_493_601)" />
+                                                    <path d="M13.0363 12.4623H14.7917V13.0217H13.0363V12.4623Z"
+                                                        fill="url(#paint7_linear_493_601)" />
+                                                </g>
+                                            </g>
+                                            <defs>
+                                                <linearGradient id="paint0_linear_493_601" x1="11" y1="4" x2="11"
+                                                    y2="18" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FA84AF" />
+                                                    <stop offset="1" stop-color="#FA84AF" />
+                                                </linearGradient>
+                                                <linearGradient id="paint1_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint2_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint3_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint4_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint5_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint6_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint7_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+
+                                        <span class="event__card__award__value">
+                                            +10,000
+                                        </span>
+                                    </span>
+
+                                </div>
+                            </div>
+
+                            <button type="button" class="get__event__button get__popup__button"
+                                data-popup-id="selected__event__popup">
+                                <svg xmlns=" http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <g clip-path="url(#clip0_508_299)">
+                                        <path d="M10 17L15 12" stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M15 12L10 7" stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_508_299">
+                                            <rect width="24" height="24" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </button>
+                        </div>
+
+                        <div class="event__card flex align__start justify__space__between"
+                            data-title="Регистрация на платформе Bonsa2i"
+                            data-description="Пополни свой баланс в Bonsai Casino и получи свою награду"
+                            data-award="+130,000" data-link="https://github.com/4min-dev"
+                            data-short-link="https://github.com/4min dev"
+                            data-note="Тут будет примечание, его можно убрать или добавить через админку, в разделе добавления и редактирования заданий."
+                            data-etaps='[{"title":"Перейдите по ссылке выше"}, {"title":"Зарегистрироваться на плаформе"}, {"title": "Купить депозит удобным для вас способ..."}]'>
+                            <div class="about__event__container flex align__start">
+                                <div class="event__card__image flex align__center justify__center">
+                                    <img src="/static/img/person.png" alt="Event icon" />
+                                </div>
+                                <div class="event__card__text__container flex column">
+                                    <span class="event__card__title">
+                                        Регистрация на платфор...
+                                    </span>
+                                    <span class="event__card__award__container flex align__center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="24"
+                                            viewBox="0 0 22 24" fill="none">
+                                            <g>
+                                                <g>
+                                                    <path
+                                                        d="M4 11C4 7.13401 7.13401 4 11 4C14.866 4 18 7.13401 18 11C18 14.866 14.866 18 11 18C7.13401 18 4 14.866 4 11Z"
+                                                        fill="url(#paint0_linear_493_601)" />
+                                                </g>
+                                                <g>
+                                                    <path
+                                                        d="M8.71528 14.6998V7.1484H11.5513C12.009 7.1484 12.3931 7.24629 12.7038 7.44207C13.0144 7.63784 13.2483 7.8913 13.4053 8.20245C13.5623 8.5101 13.6408 8.83522 13.6408 9.17783C13.6408 9.59386 13.5422 9.95045 13.3451 10.2476C13.1514 10.5448 12.8892 10.7475 12.5585 10.8559L12.5484 10.599C13.0094 10.7178 13.3635 10.9503 13.6107 11.2964C13.8579 11.639 13.9815 12.0393 13.9815 12.4973C13.9815 12.9413 13.8963 13.3276 13.7259 13.6562C13.5589 13.9848 13.3134 14.2418 12.9894 14.4271C12.6687 14.6089 12.2795 14.6998 11.8219 14.6998H8.71528ZM9.77754 13.6562H11.6615C11.8987 13.6562 12.1108 13.609 12.2979 13.5146C12.4883 13.4202 12.637 13.2856 12.7438 13.1108C12.8541 12.9325 12.9092 12.721 12.9092 12.4763C12.9092 12.2491 12.8608 12.0446 12.7639 11.8628C12.6704 11.6775 12.5334 11.5324 12.353 11.4275C12.176 11.3191 11.9672 11.2649 11.7267 11.2649H9.77754V13.6562ZM9.77754 10.2319H11.5363C11.73 10.2319 11.9037 10.1917 12.0574 10.1113C12.2144 10.0274 12.338 9.9085 12.4282 9.75467C12.5217 9.59735 12.5685 9.40857 12.5685 9.18832C12.5685 8.89466 12.4749 8.65343 12.2879 8.46465C12.1008 8.27586 11.8503 8.18147 11.5363 8.18147H9.77754V10.2319Z"
+                                                        fill="url(#paint1_linear_493_601)" />
+                                                    <path d="M7.5 8.96632H9.52546V9.52569H7.5V8.96632Z"
+                                                        fill="url(#paint2_linear_493_601)" />
+                                                    <path d="M7.5 12.4623H9.52546V13.0217H7.5V12.4623Z"
+                                                        fill="url(#paint3_linear_493_601)" />
+                                                    <path d="M10.7407 5.75H11.2809V7.8476H10.7407V5.75Z"
+                                                        fill="url(#paint4_linear_493_601)" />
+                                                    <path d="M10.7407 13.8607H11.2809V15.9583H10.7407V13.8607Z"
+                                                        fill="url(#paint5_linear_493_601)" />
+                                                    <path d="M12.7662 8.96632H14.7917V9.52569H12.7662V8.96632Z"
+                                                        fill="url(#paint6_linear_493_601)" />
+                                                    <path d="M13.0363 12.4623H14.7917V13.0217H13.0363V12.4623Z"
+                                                        fill="url(#paint7_linear_493_601)" />
+                                                </g>
+                                            </g>
+                                            <defs>
+                                                <linearGradient id="paint0_linear_493_601" x1="11" y1="4" x2="11"
+                                                    y2="18" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FA84AF" />
+                                                    <stop offset="1" stop-color="#FA84AF" />
+                                                </linearGradient>
+                                                <linearGradient id="paint1_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint2_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint3_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint4_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint5_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint6_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint7_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+
+                                        <span class="event__card__award__value">
+                                            +10,000
+                                        </span>
+                                    </span>
+
+                                </div>
+                            </div>
+
+                            <button type="button" class="get__event__button get__popup__button"
+                                data-popup-id="selected__event__popup">
+                                <svg xmlns=" http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <g clip-path="url(#clip0_508_299)">
+                                        <path d="M10 17L15 12" stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M15 12L10 7" stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_508_299">
+                                            <rect width="24" height="24" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </button>
+                        </div>
+
+                        <div class="event__card flex align__start justify__space__between"
+                            data-title="Регистрация на платформе Bonsa2i"
+                            data-description="Пополни свой баланс в Bonsai Casino и получи свою награду"
+                            data-award="+130,000" data-link="https://github.com/4min-dev"
+                            data-short-link="https://github.com/4min dev"
+                            data-note="Тут будет примечание, его можно убрать или добавить через админку, в разделе добавления и редактирования заданий."
+                            data-etaps='[{"title":"Перейдите по ссылке выше"}, {"title":"Зарегистрироваться на плаформе"}, {"title": "Купить депозит удобным для вас способ..."}]'>
+                            <div class="about__event__container flex align__start">
+                                <div class="event__card__image flex align__center justify__center">
+                                    <img src="/static/img/person.png" alt="Event icon" />
+                                </div>
+                                <div class="event__card__text__container flex column">
+                                    <span class="event__card__title">
+                                        Регистрация на платфор...
+                                    </span>
+                                    <span class="event__card__award__container flex align__center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="24"
+                                            viewBox="0 0 22 24" fill="none">
+                                            <g>
+                                                <g>
+                                                    <path
+                                                        d="M4 11C4 7.13401 7.13401 4 11 4C14.866 4 18 7.13401 18 11C18 14.866 14.866 18 11 18C7.13401 18 4 14.866 4 11Z"
+                                                        fill="url(#paint0_linear_493_601)" />
+                                                </g>
+                                                <g>
+                                                    <path
+                                                        d="M8.71528 14.6998V7.1484H11.5513C12.009 7.1484 12.3931 7.24629 12.7038 7.44207C13.0144 7.63784 13.2483 7.8913 13.4053 8.20245C13.5623 8.5101 13.6408 8.83522 13.6408 9.17783C13.6408 9.59386 13.5422 9.95045 13.3451 10.2476C13.1514 10.5448 12.8892 10.7475 12.5585 10.8559L12.5484 10.599C13.0094 10.7178 13.3635 10.9503 13.6107 11.2964C13.8579 11.639 13.9815 12.0393 13.9815 12.4973C13.9815 12.9413 13.8963 13.3276 13.7259 13.6562C13.5589 13.9848 13.3134 14.2418 12.9894 14.4271C12.6687 14.6089 12.2795 14.6998 11.8219 14.6998H8.71528ZM9.77754 13.6562H11.6615C11.8987 13.6562 12.1108 13.609 12.2979 13.5146C12.4883 13.4202 12.637 13.2856 12.7438 13.1108C12.8541 12.9325 12.9092 12.721 12.9092 12.4763C12.9092 12.2491 12.8608 12.0446 12.7639 11.8628C12.6704 11.6775 12.5334 11.5324 12.353 11.4275C12.176 11.3191 11.9672 11.2649 11.7267 11.2649H9.77754V13.6562ZM9.77754 10.2319H11.5363C11.73 10.2319 11.9037 10.1917 12.0574 10.1113C12.2144 10.0274 12.338 9.9085 12.4282 9.75467C12.5217 9.59735 12.5685 9.40857 12.5685 9.18832C12.5685 8.89466 12.4749 8.65343 12.2879 8.46465C12.1008 8.27586 11.8503 8.18147 11.5363 8.18147H9.77754V10.2319Z"
+                                                        fill="url(#paint1_linear_493_601)" />
+                                                    <path d="M7.5 8.96632H9.52546V9.52569H7.5V8.96632Z"
+                                                        fill="url(#paint2_linear_493_601)" />
+                                                    <path d="M7.5 12.4623H9.52546V13.0217H7.5V12.4623Z"
+                                                        fill="url(#paint3_linear_493_601)" />
+                                                    <path d="M10.7407 5.75H11.2809V7.8476H10.7407V5.75Z"
+                                                        fill="url(#paint4_linear_493_601)" />
+                                                    <path d="M10.7407 13.8607H11.2809V15.9583H10.7407V13.8607Z"
+                                                        fill="url(#paint5_linear_493_601)" />
+                                                    <path d="M12.7662 8.96632H14.7917V9.52569H12.7662V8.96632Z"
+                                                        fill="url(#paint6_linear_493_601)" />
+                                                    <path d="M13.0363 12.4623H14.7917V13.0217H13.0363V12.4623Z"
+                                                        fill="url(#paint7_linear_493_601)" />
+                                                </g>
+                                            </g>
+                                            <defs>
+                                                <linearGradient id="paint0_linear_493_601" x1="11" y1="4" x2="11"
+                                                    y2="18" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FA84AF" />
+                                                    <stop offset="1" stop-color="#FA84AF" />
+                                                </linearGradient>
+                                                <linearGradient id="paint1_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint2_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint3_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint4_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint5_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint6_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                                <linearGradient id="paint7_linear_493_601" x1="11.1458" y1="5.75"
+                                                    x2="11.1458" y2="15.9583" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#FBFFFF" />
+                                                    <stop offset="1" stop-color="#CDF1ED" />
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+
+                                        <span class="event__card__award__value">
+                                            +10,000
+                                        </span>
+                                    </span>
+
+                                </div>
+                            </div>
+
+                            <button type="button" class="get__event__button get__popup__button"
+                                data-popup-id="selected__event__popup">
+                                <svg xmlns=" http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <g clip-path="url(#clip0_508_299)">
+                                        <path d="M10 17L15 12" stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M15 12L10 7" stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_508_299">
+                                            <rect width="24" height="24" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1793,7 +3506,7 @@
         class="popup__overlay bonsai__popup__overlay timeout__block__popup__overlay display__block__popup__overlay without__close__overlay flex align__center justify__center">
         <div class="popup bonsai__get__token__popup flex column align__center">
             <span class="bonsai__popup__title__timer flex align__center justify__center">
-                Осталось&nbsp;<span class="trim__timeout__value" data-timeout="00:30">00:30</span>
+                Осталось&nbsp;<span class="trim__timeout__value" data-timeout="00:00">Загрузка..</span>
             </span>
         </div>
     </div>
