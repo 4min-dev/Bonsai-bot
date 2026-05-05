@@ -1,3 +1,4 @@
+import API_BASE from "../config.js"
 import { getUserBonsai } from "./bonsai.js"
 import { handleGetBoostItems } from "./getBoosters.js"
 import NotificationManager from "./notifications.js"
@@ -13,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function handleBuyItem() {
         try {
-            const response = await fetch(`https://tapalka.wizardstech.ru:8443/api/boosters/purchase?boost_id=${currentBoosterId}`, {
+            const response = await fetch(`${API_BASE}/api/boosters/purchase?boost_id=${currentBoosterId}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

@@ -1,3 +1,4 @@
+import API_BASE from "../config.js"
 import NotificationManager from "./notifications.js"
 const notificationManager = new NotificationManager()
 
@@ -8,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const card = event.target.closest('.event__card')
             if (!card) return
 
-            const response = await fetch(`https://tapalka.wizardstech.ru:8443/api/quests/takeReward?quest_id=${card.getAttribute('data-id')}`, {
+            const response = await fetch(`${API_BASE}/api/quests/takeReward?quest_id=${card.getAttribute('data-id')}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

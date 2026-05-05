@@ -1,3 +1,4 @@
+import API_BASE from "../config.js"
 import { createEvents } from "./createEvents.js"
 import NotificationManager from "./notifications.js"
 
@@ -9,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     async function checkToComplete(questId) {
         try {
             checkButton.textContent = 'Ожидание..'
-            const response = await fetch(`https://tapalka.wizardstech.ru:8443/api/quests/checkStatus?quest_id=${questId}`, {
+            const response = await fetch(`${API_BASE}/api/quests/checkStatus?quest_id=${questId}`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -18,8 +19,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }).then((res) => res.json())
 
             checkButton.textContent = 'Проверить'
-            
-            if(!response) {
+
+            if (!response) {
                 notificationManager.createNotification('Одно из условий не выполнено!', 5000, false)
             }
 

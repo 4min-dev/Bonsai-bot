@@ -1,3 +1,4 @@
+import API_BASE from "../config.js"
 import NotificationManager from "./notifications.js"
 
 const notificationManager = new NotificationManager()
@@ -11,7 +12,7 @@ function setupAwardButtonListeners() {
             const getAwardButton = card.querySelector('.get__award__button')
             if (getAwardButton) {
                 try {
-                    const response = await fetch(`https://tapalka.wizardstech.ru:8443/api/users/referrals/getReward?ref_tg_id=${card.getAttribute('data-id')}`, {
+                    const response = await fetch(`${API_BASE}/api/users/referrals/getReward?ref_tg_id=${card.getAttribute('data-id')}`, {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',

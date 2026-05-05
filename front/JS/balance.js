@@ -47,7 +47,3 @@ document.querySelectorAll('.balance__money-secondary-text').forEach(element => {
   Array.from(document.querySelectorAll('.transactions__button')).forEach(e => e.classList.remove('transactions__active'))
   el.classList.add('transactions__active')
  }))
- 
-
-
-//  Реализация инпута

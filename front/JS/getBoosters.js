@@ -1,4 +1,5 @@
 const boostersContainer = document.querySelector('.boosts__block__cards__container')
+import API_BASE from '../config.js'
 import Preloader from './preloader.js'
 const preloader = new Preloader()
 
@@ -161,14 +162,14 @@ async function createBooster(booster, isBought) {
 async function handleGetBoostItems() {
     try {
         preloader.setActive()
-        const boostersData = await fetch('https://tapalka.wizardstech.ru:8443/api/boosters', {
+        const boostersData = await fetch(`${API_BASE}/api/boosters`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
                 'Accept': 'application/json',
             },
         }).then((res) => res.json())
-        const userBoostersData = await fetch('https://tapalka.wizardstech.ru:8443/api/boosters/active', {
+        const userBoostersData = await fetch(`${API_BASE}/api/boosters/active`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',

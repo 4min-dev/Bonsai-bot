@@ -1,3 +1,4 @@
+import API_BASE from "../config.js"
 import { getFormattedTokens } from "./getFormattedTokens.js"
 import { getUserData } from "./getUserData.js"
 import Preloader from './preloader.js'
@@ -70,7 +71,7 @@ function createReferral(referral) {
 async function getReferals() {
     try {
         preloader.setActive()
-        const response = await fetch('https://tapalka.wizardstech.ru:8443/api/users/referrals', {
+        const response = await fetch(`${API_BASE}/api/users/referrals`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',

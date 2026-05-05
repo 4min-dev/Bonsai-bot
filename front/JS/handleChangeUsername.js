@@ -1,6 +1,7 @@
 import { getProfileData } from "./getProfileData.js"
 import { fetchUserData } from "./userData.js"
 import Preloader from './preloader.js'
+import API_BASE from "../config.js"
 const preloader = new Preloader()
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -16,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     async function handleChangeUsername() {
         try {
             preloader.setActive()
-            const response = await fetch('https://tapalka.wizardstech.ru:8443/api/users/me/profile', {
+            const response = await fetch(`${API_BASE}/api/users/me/profile`, {
                 method: 'PATCH',
                 headers: {
                     'Content-Type': 'application/json',

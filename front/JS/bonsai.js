@@ -1,9 +1,7 @@
+import API_BASE from "../config.js"
 import { convertSeconds } from "./convertSeconds.js"
 import { formatDuration } from "./formatDuration.js"
-import formatNumbersWithZeros from "./formatNumbersWithZeros.js"
-import { getProfileData } from "./getProfileData.js"
 import NotificationManager from "./notifications.js"
-const notifications = new NotificationManager()
 import { trimBonsai } from "./trimBonsai.js"
 
 
@@ -55,45 +53,10 @@ const bonsaiData = [
 ]
 
 let bonsaiStage
-let waterCount
-
-async function handleCollectBonsai() {
-    try {
-        const response = await fetch('https://tapalka.wizardstech.ru:8443/api/game/collect', {
-            method: 'POST',
-            'Content-Type': 'application/json',
-            'Accept': 'application/json',
-            headers: {
-                'initData': initData
-            }
-        })
-
-        const data = await response.json()
-
-        if (response.ok && data.message) {
-            notifications.createNotification(data.message, 5000, true)
-        }
-
-        if (data.tokens_earned) {
-            const currentBalance = Number(balanceValueElement.textContent.replace(/\s/g, ""))
-            const newBalance = Math.ceil(currentBalance + data.tokens_earned)
-
-            const formattedBalance = formatNumbersWithZeros(newBalance)
-            balanceValueElement.innerHTML = formattedBalance
-
-            collectBonsaiPopupContainer.classList.remove('visible')
-            await getProfileData()
-        }
-
-        return data
-    } catch (error) {
-        console.log(`Error: ${error}`)
-    }
-}
 
 async function plantBonsai() {
     try {
-        const response = await fetch('https://tapalka.wizardstech.ru:8443/api/game/plant', {
+        const response = await fetch(`${API_BASE}/api/game/plant`, {
             method: 'POST',
             'Content-Type': 'application/json',
             'Accept': 'application/json'
@@ -108,7 +71,7 @@ const getUserBonsai = async () => {
     localStorage.removeItem('isTapIgnor')
 
     try {
-        const response = await fetch('https://tapalka.wizardstech.ru:8443/api/game/bonsai', {
+        const response = await fetch(`${API_BASE}/api/game/bonsai`, {
             method: 'GET',
             'Content-Type': 'application/json',
             'Accept': 'application/json',
@@ -117,7 +80,7 @@ const getUserBonsai = async () => {
             }
         })
 
-        const responses = await fetch(`https://tapalka.wizardstech.ru:8443/api/game/trim/status`, {
+        const responses = await fetch(`${API_BASE}/api/game/trim/status`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',

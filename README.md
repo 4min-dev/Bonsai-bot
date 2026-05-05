@@ -24,8 +24,11 @@ cd Bonsai-bot
 # 3. Установите зависимости
 npm install
 
-# 4. Запустите сервер разработки
-npm run start
+# 4. Запустите бекенд
+docker compose -f backend/docker-compose.dev.yaml up --build -d
+
+# 5. Запустите фронт
+cd front npm run start
 ```
 
 ## 📸 Скриншоты игры

@@ -1,3 +1,4 @@
+import API_BASE from "../config.js"
 import formatNumberWithZeros from "./formatNumbersWithZeros.js"
 import Preloader from "./preloader.js"
 
@@ -33,7 +34,7 @@ async function fetchUserData(isPreloaderSkip, isTimeout) {
 
         const initData = window.Telegram.WebApp.initData
 
-        const response = await fetch('https://tapalka.wizardstech.ru:8443/api/users/me', {
+        const response = await fetch(`${API_BASE}/api/users/me`, {
             method: 'GET',
             headers: {
                 'initData': initData

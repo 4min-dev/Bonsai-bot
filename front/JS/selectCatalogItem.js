@@ -1,3 +1,4 @@
+import API_BASE from "../config.js"
 import { getUserBonsai } from "./bonsai.js"
 import { getGardenItems } from "./getGardenItems.js"
 import NotificationManager from "./notifications.js"
@@ -137,7 +138,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const productUuid = selectedStoreItemPopup.getAttribute('data-item-id')
 
         try {
-            const response = await fetch(`https://tapalka.wizardstech.ru:8443/api/garden/upgrade?user_garden_product_id=${productUuid}`, {
+            const response = await fetch(`${API_BASE}/api/garden/upgrade?user_garden_product_id=${productUuid}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

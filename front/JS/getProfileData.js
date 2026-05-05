@@ -1,3 +1,4 @@
+import API_BASE from "../config.js"
 import { getFormattedTokens } from "./getFormattedTokens.js"
 import { getUserData } from "./getUserData.js"
 import Preloader from './preloader.js'
@@ -22,7 +23,7 @@ async function getAllUsersData(isPreloaderIgnor) {
         if (!isPreloaderIgnor) {
             preloader.setActive()
         }
-        const response = await fetch('https://tapalka.wizardstech.ru:8443/api/users?limit=9999', {
+        const response = await fetch(`${API_BASE}/api/users?limit=9999`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',

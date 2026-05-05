@@ -1,3 +1,4 @@
+import API_BASE from "../config.js"
 import { formatPrice } from "./formatPrice.js"
 import Preloader from './preloader.js'
 const preloader = new Preloader()
@@ -212,7 +213,7 @@ function createProductCard(product, productId) {
 async function getGardenItems(isTimeout) {
     try {
         preloader.setActive()
-        const response = await fetch('https://tapalka.wizardstech.ru:8443/api/garden/products', {
+        const response = await fetch(`${API_BASE}/api/garden/products`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
@@ -220,7 +221,7 @@ async function getGardenItems(isTimeout) {
                 'initData': initData
             },
         })
-        const userGardenItems = await fetch('https://tapalka.wizardstech.ru:8443/api/garden/active', {
+        const userGardenItems = await fetch(`${API_BASE}/api/garden/active`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',

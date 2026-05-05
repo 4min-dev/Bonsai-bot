@@ -4,10 +4,11 @@ import { applyFilter } from "./filterWrapper.js"
 import { getGardenItems } from "./getGardenItems.js"
 import { getUserBonsai } from "./bonsai.js"
 import { getUserWater } from "./tap.js"
+import API_BASE from "../config.js"
 
 async function handlePurchaseItem(productUuid) {
     try {
-        const response = await fetch(`https://tapalka.wizardstech.ru:8443/api/garden/purchase?product_uuid=${productUuid}`, {
+        const response = await fetch(`${API_BASE}/api/garden/purchase?product_uuid=${productUuid}`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

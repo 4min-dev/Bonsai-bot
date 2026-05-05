@@ -1,3 +1,4 @@
+import API_BASE from "../config.js"
 import { formatDuration } from "./formatDuration.js"
 import NotificationManager from "./notifications.js"
 const notifications = new NotificationManager()
@@ -8,7 +9,7 @@ const trimTimeoutBonsaiValue = document.querySelector('.trim__timeout__value')
 
 async function trimBonsai() {
     try {
-        const response = await fetch('https://tapalka.wizardstech.ru:8443/api/game/trim', {
+        const response = await fetch(`${API_BASE}/api/game/trim`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

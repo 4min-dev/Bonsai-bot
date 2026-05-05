@@ -1,3 +1,4 @@
+import API_BASE from '../config.js'
 import Preloader from './preloader.js'
 const preloader = new Preloader()
 
@@ -7,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     async function handleDeleteUserData() {
         try {
             preloader.setActive()
-            const response = await fetch('https://tapalka.wizardstech.ru:8443/api/users/me/profile', {
+            const response = await fetch(`${API_BASE}/api/users/me/profile`, {
                 method: 'DELETE'
             })
 

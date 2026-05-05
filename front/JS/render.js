@@ -1,10 +1,12 @@
+import API_BASE from "../config"
+
 document.addEventListener('DOMContentLoaded', () => {
     const initData = window.Telegram.WebApp.initData
     const user = window.Telegram.WebApp.initDataUnsafe.user
 
     async function getUser() {
         try {
-            const users = await fetch('https://tapalka.wizardstech.ru:8443/api/users', {
+            const users = await fetch(`${API_BASE}/api/users`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -21,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (!foundingActiveUser) {
                 try {
-                    const setNewUser = await fetch('https://tapalka.wizardstech.ru:8443/api/users/me', {
+                    const setNewUser = await fetch(`${API_BASE}/api/users/me`, {
                         method: 'GET',
                         headers: {
                             'Content-Type': 'application/json',
@@ -40,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return usersData
         } catch (error) {
             try {
-                const setNewUser = await fetch('https://tapalka.wizardstech.ru:8443/api/users/me', {
+                const setNewUser = await fetch(`${API_BASE}/api/users/me`, {
                     method: 'GET',
                     headers: {
                         'Content-Type': 'application/json',

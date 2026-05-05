@@ -1,3 +1,4 @@
+import API_BASE from "../config.js"
 import { getUserBonsai } from "./bonsai.js"
 import formatNumbersWithZeros from "./formatNumbersWithZeros.js"
 import NotificationManager from "./notifications.js"
@@ -20,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function handleCollectBonsai() {
         try {
-            const response = await fetch('https://tapalka.wizardstech.ru:8443/api/game/collect', {
+            const response = await fetch(`${API_BASE}/api/game/collect`, {
                 method: 'POST',
                 'Content-Type': 'application/json',
                 'Accept': 'application/json',
@@ -57,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function fetchToCollectStatus() {
         try {
-            const response = await fetch(`https://tapalka.wizardstech.ru:8443/api/game/trim/status`, {
+            const response = await fetch(`${API_BASE}/api/game/trim/status`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',

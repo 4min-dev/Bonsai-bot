@@ -1,3 +1,4 @@
+import API_BASE from "../config.js"
 import { getUserBonsai } from "./bonsai.js"
 import { convertSeconds } from "./convertSeconds.js"
 import formatNumberWithZeros from "./formatNumbersWithZeros.js"
@@ -79,7 +80,7 @@ addButton.addEventListener('pointerdown', () => {
         try {
             console.log('Sending request with click count:', clickCount);
 
-            const response = await fetch(`https://tapalka.wizardstech.ru:8443/api/game/water?count=${clickCount}`, {
+            const response = await fetch(`${API_BASE}/api/game/water?count=${clickCount}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -145,7 +146,7 @@ if (isMobileDevice()) {
 
 // async function getTrimStatus() {
 //     try {
-//         const response = await fetch('https://tapalka.wizardstech.ru:8443/api/game/trim', {
+//         const response = await fetch(`${API_BASE}/api/game/trim`, {
 //             method: 'POST',
 //             headers: {
 //                 'Content-Type': 'application/json',
@@ -166,7 +167,7 @@ if (isMobileDevice()) {
 
 async function getUserWater() {
     try {
-        const response = await fetch('https://tapalka.wizardstech.ru:8443/api/users/me', {
+        const response = await fetch(`${API_BASE}/api/users/me`, {
             method: 'GET',
             'Content-Type': 'application/json',
             'Accept': 'application/json',

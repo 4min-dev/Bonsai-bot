@@ -1,3 +1,4 @@
+import API_BASE from '../config.js'
 import Preloader from './preloader.js'
 const preloader = new Preloader()
 
@@ -18,7 +19,7 @@ function getFormattedTokensAward(value) {
 
 async function handleGetDailyReward() {
     try {
-        const response = await fetch('https://tapalka.wizardstech.ru:8443/api/daily-rewards/claim', {
+        const response = await fetch(`${API_BASE}/api/daily-rewards/claim`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -28,7 +29,7 @@ async function handleGetDailyReward() {
 
         if (response.reward.combo_days === 1) {
             boostersArray.forEach(async (booster) => {
-                await fetch(`https://tapalka.wizardstech.ru:8443/api/boosters/activate?user_boost_id=${booster.booster_uuid}`, {
+                await fetch(`${API_BASE}/api/boosters/activate?user_boost_id=${booster.booster_uuid}`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -46,14 +47,14 @@ async function handleGetDailyReward() {
 
 async function handleGetBoostItems() {
     try {
-        const boostersData = await fetch('https://tapalka.wizardstech.ru:8443/api/boosters', {
+        const boostersData = await fetch(`${API_BASE}/api/boosters`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
                 'Accept': 'application/json',
             },
         }).then((res) => res.json())
-        const userBoostersData = await fetch('https://tapalka.wizardstech.ru:8443/api/boosters/active', {
+        const userBoostersData = await fetch(`${API_BASE}/api/boosters/active`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
@@ -223,7 +224,7 @@ function createDailyReward(dailyReward, nextDailyReward) {
 async function getDailyRewards() {
     try {
         preloader.setActive()
-        const responseToDailyRewardsData = await fetch('https://tapalka.wizardstech.ru:8443/api/daily-rewards', {
+        const responseToDailyRewardsData = await fetch(`${API_BASE}/api/daily-rewards`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
@@ -231,7 +232,7 @@ async function getDailyRewards() {
                 'initData': window.Telegram.WebApp.initData
             }
         }).then((res) => res.json())
-        const responseToUserStats = await fetch('https://tapalka.wizardstech.ru:8443/api/daily-rewards/user-info', {
+        const responseToUserStats = await fetch(`${API_BASE}/api/daily-rewards/user-info`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',

@@ -2,6 +2,7 @@ import { createEvents } from "./createEvents.js"
 import { filteredQuests } from "./filteredQuestsData.js"
 import { questsData } from "./questsData.js"
 import Preloader from './preloader.js'
+import API_BASE from "../config.js"
 const preloader = new Preloader()
 
 const homePageQuestsValue = document.querySelector('.events__card__amount')
@@ -9,7 +10,7 @@ const homePageQuestsValue = document.querySelector('.events__card__amount')
 async function getEvents() {
     try {
         preloader.setActive()
-        const response = await fetch('https://tapalka.wizardstech.ru:8443/api/quests', {
+        const response = await fetch(`${API_BASE}/api/quests`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
